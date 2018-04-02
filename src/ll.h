@@ -45,7 +45,7 @@ public:
     void push_back(SnakeBodySegment value);  // Push value on back
     void pop_front();                        // remove front element
     void pop_back();                         // remove back element
-    void RemoveNth(int n);                   // remove the Nth emement from the front
+    void RemoveNth(int n);                   // remove the Nth elmement from the front
     void clear();                            // clear the contents
 
     // Accessors

@@ -3,5 +3,13 @@
 //
 
 #define CATCH_CONFIG_MAIN
-#include "../catch.hpp"
+#include "../test/catch.hpp"
 #include "../src/ll.h"
+using namespace snakelinkedlist;
+
+TEST_CASE("Copy Constructor") {
+    LinkedList linkedList = LinkedList();
+    LinkedList linkedList2 = LinkedList(linkedList);
+
+    REQUIRE(linkedList == linkedList2);
+}
