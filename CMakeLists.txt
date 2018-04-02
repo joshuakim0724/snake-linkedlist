@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(Main src/ll.cpp src/snakebody.cpp )
 
-add_executable(Test test/ll_test.cpp  src/ll.cpp src/snakebody.cpp)
+add_executable(Test "test/constructor_test.cpp" src/ll.cpp src/snakebody.cpp)

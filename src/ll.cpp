@@ -14,8 +14,8 @@ namespace snakelinkedlist {
      * @param values
      */
     LinkedList::LinkedList(const std::vector<SnakeBodySegment> &values) {
-        for (int i = 0; i < values.size(); i++) {
-            push_back(values[i]);
+        for (auto value : values) {
+            push_back(value);
         }
     }
 
@@ -94,6 +94,44 @@ namespace snakelinkedlist {
         current_node->next_ = tail_node;
     }
 
+    //----------------------------------------------Accessors-----------------------------------------------------------
+
+    SnakeBodySegment LinkedList::front() const {
+        return head_->data_;
+    }
+
+    SnakeBodySegment LinkedList::back() const {
+        return SnakeBodySegment();
+    }
+
+    int LinkedList::size() const {
+        return 0;
+    }
+
+    std::vector<SnakeBodySegment> LinkedList::GetVector() const {
+        std::vector<SnakeBodySegment> *snake_value = new std::vector<SnakeBodySegment>();
+
+        if (head_ == nullptr) {
+            return *snake_value;
+        }
+
+        ListNode *current_node = head_;
+        SnakeBodySegment current_value;
+
+        while (current_node) {
+            current_value = current_node->data_;
+            current_node = current_node->next_;
+
+            snake_value->push_back(current_value);
+        }
+
+        return *snake_value;
+    }
+
+    bool LinkedList::empty() const {
+        return false;
+    }
+
     std::ostream &snakelinkedlist::operator<<(std::ostream &os, const LinkedList &list) {
 //        ListNode first_node = *list.head_;
 //        SnakeBodySegment first_value = first_node.data_;
@@ -104,11 +142,11 @@ namespace snakelinkedlist {
     }
 
     bool LinkedList::operator==(const LinkedList &rhs) const {
-        if (head_ == nullptr) {
+        if (rhs.head_ == nullptr) {
             return true;
         }
 
-        ListNode *current_node = head_;
+        ListNode *current_node = rhs.head_;
         SnakeBodySegment compare_value = current_node->data_;
         current_node = current_node->next_;
 
@@ -117,6 +155,17 @@ namespace snakelinkedlist {
                 return false;
             }
             current_node = current_node->next_;
+        }
+        return true;
+    }
+
+    bool operator!=(const LinkedList& lhs, const LinkedList& rhs) {
+        std::vector<SnakeBodySegment> snake_value1 = lhs.GetVector();
+        std::vector<SnakeBodySegment> snake_value2 = lhs.GetVector();
+
+
+        if (snake_value1 == snake_value2) {
+            return false;
         }
         return true;
     }
