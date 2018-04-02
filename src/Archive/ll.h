@@ -25,10 +25,9 @@ class LinkedList {
      *  internal structs, classes, or enum types here
      */
 private:
-    ListNode *head_;
+    ListNode head_;
 
 public:
-
     // Default constructor
     LinkedList();
     // Initilize from vector
