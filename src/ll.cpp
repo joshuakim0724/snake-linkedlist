@@ -23,7 +23,14 @@ namespace snakelinkedlist {
     // Make two LinkedList and make sure values are different
     LinkedList::LinkedList(const LinkedList &source) {
         if (source.head_) {
-            head_ = new ListNode(*source.head_);
+            ListNode *current_node = source.head_;
+            head_ = new ListNode(current_node->data_);
+            current_node = current_node->next_;
+
+            while (current_node) {
+                this->push_back(current_node->data_);
+                current_node = current_node->next_;
+            }
         } else {
             head_ = nullptr;
         }
@@ -39,7 +46,7 @@ namespace snakelinkedlist {
     // Destructor
     // Memeory leak testing
     LinkedList::~LinkedList() {
-        delete head_;
+        clear();
     }
 
     // Copy assignment operator
@@ -108,36 +115,59 @@ namespace snakelinkedlist {
         if (head_ == nullptr) {
             return;
         }
+
+        if (size() == 1) {
+            head_ = nullptr;
+            delete head_;
+            return;
+        }
+
         ListNode *remove_node = head_;
 
-        while(remove_node->next_ && remove_node->next_->next_) {
+        while (remove_node->next_ && remove_node->next_->next_) {
             remove_node = remove_node->next_;
         }
 
+        remove_node->next_ = nullptr;
         delete remove_node->next_;
-        remove_node = nullptr;
     }
 
     void LinkedList::RemoveNth(int n) {
         if (head_ == nullptr || n > size() - 1) {
-            std::string errorMessage = std::string("Could not remove Nth index");
-            throw std::runtime_error(errorMessage);
+            std::cout << "Could not remove Nth index" << std::endl;
+            return;
+        }
+
+        if (n == 0) {
+            pop_front();
+            return;
         }
 
         int index = 0;
         ListNode *remove_node = head_;
-        ListNode *head_connector = nullptr;
+        ListNode *head_connector;
 
         while (index != n) {
             index++;
-            remove_node = remove_node->next_;
             head_connector = remove_node;
+            remove_node = remove_node->next_;
         }
+
         ListNode *tail_connector = remove_node->next_;
+        remove_node = nullptr;
         delete remove_node;
+
         head_connector->next_ = tail_connector;
     }
 
+    void LinkedList::clear() {
+        int length = size();
+
+        while (length > 0) {
+            pop_back();
+            length = length - 1;//size();
+        }
+    }
     //----------------------------------------------Accessors-----------------------------------------------------------
 
     SnakeBodySegment LinkedList::front() const {
@@ -145,7 +175,12 @@ namespace snakelinkedlist {
     }
 
     SnakeBodySegment LinkedList::back() const {
-        return SnakeBodySegment();
+        ListNode *current_node = head_;
+
+        while (current_node->next_) {
+            current_node = current_node->next_;
+        }
+        return current_node->data_;
     }
 
     int LinkedList::size() const {
@@ -183,6 +218,9 @@ namespace snakelinkedlist {
     }
 
     bool LinkedList::empty() const {
+        if (size() == 0) {
+            return true;
+        }
         return false;
     }
 
