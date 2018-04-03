@@ -73,7 +73,7 @@ namespace snakelinkedlist {
     //--------------------------------------------Modifiers Methods-----------------------------------------------------
 
     void LinkedList::push_front(SnakeBodySegment value) {
-        ListNode *new_node = new ListNode(value);
+        auto *new_node = new ListNode(value);
         new_node->next_ = head_;
         head_ = new_node;
     }
@@ -94,6 +94,50 @@ namespace snakelinkedlist {
         current_node->next_ = tail_node;
     }
 
+    void LinkedList::pop_front() {
+        if (head_ == nullptr) {
+            return;
+        }
+
+        ListNode *temp = head_;
+        head_ = head_->next_;
+        delete temp;
+    }
+
+    void LinkedList::pop_back() {
+        if (head_ == nullptr) {
+            return;
+        }
+        ListNode *remove_node = head_;
+
+        while(remove_node->next_ && remove_node->next_->next_) {
+            remove_node = remove_node->next_;
+        }
+
+        delete remove_node->next_;
+        remove_node = nullptr;
+    }
+
+    void LinkedList::RemoveNth(int n) {
+        if (head_ == nullptr || n > size() - 1) {
+            std::string errorMessage = std::string("Could not remove Nth index");
+            throw std::runtime_error(errorMessage);
+        }
+
+        int index = 0;
+        ListNode *remove_node = head_;
+        ListNode *head_connector = nullptr;
+
+        while (index != n) {
+            index++;
+            remove_node = remove_node->next_;
+            head_connector = remove_node;
+        }
+        ListNode *tail_connector = remove_node->next_;
+        delete remove_node;
+        head_connector->next_ = tail_connector;
+    }
+
     //----------------------------------------------Accessors-----------------------------------------------------------
 
     SnakeBodySegment LinkedList::front() const {
@@ -105,7 +149,15 @@ namespace snakelinkedlist {
     }
 
     int LinkedList::size() const {
-        return 0;
+        int size = 0;
+        ListNode *current_node = head_;
+
+        while (current_node) {
+            size++;
+            current_node = current_node->next_;
+        }
+        delete current_node;
+        return size;
     }
 
     std::vector<SnakeBodySegment> LinkedList::GetVector() const {
@@ -125,6 +177,8 @@ namespace snakelinkedlist {
             snake_value->push_back(current_value);
         }
 
+        delete current_node;
+
         return *snake_value;
     }
 
@@ -133,10 +187,15 @@ namespace snakelinkedlist {
     }
 
     std::ostream &snakelinkedlist::operator<<(std::ostream &os, const LinkedList &list) {
-//        ListNode first_node = *list.head_;
-//        SnakeBodySegment first_value = first_node.data_;
+        ListNode *current_node = list.head_;
 
-        os << list.head_->data_;
+        while (current_node) {
+            os << current_node->data_;
+            current_node = current_node->next_;
+            if (current_node) {
+                os << ", ";
+            }
+        }
 
         return os;
     }
@@ -156,6 +215,7 @@ namespace snakelinkedlist {
             }
             current_node = current_node->next_;
         }
+
         return true;
     }
 
