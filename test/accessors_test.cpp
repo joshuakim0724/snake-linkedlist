@@ -102,3 +102,138 @@ TEST_CASE("Testing GetVector") {
 
     REQUIRE(list.GetVector().size() == 3);
 }
+
+TEST_CASE("Testing isEmpty") {
+    LinkedList list;
+
+    REQUIRE(list.empty());
+}
+
+TEST_CASE("Testing empty is false") {
+    LinkedList list;
+    list.push_back(1);
+
+    REQUIRE(!list.empty());
+}
+
+TEST_CASE("Testing empty (adding and then removing values)") {
+    LinkedList list;
+
+    REQUIRE(list.empty());
+
+    list.push_back(1);
+
+    REQUIRE(!list.empty());
+
+    list.pop_back();
+
+    REQUIRE(list.empty());
+}
+TEST_CASE("Testing << operator basecase") {
+    LinkedList list;
+
+    std::ostringstream stream;
+    stream << list;
+    string link_value = "";
+
+    REQUIRE(stream.str() == link_value);
+}
+
+TEST_CASE("Testing << operator") {
+    LinkedList list;
+
+    list.push_back(2);
+    list.push_back(3);
+
+    std::ostringstream stream;
+    stream << list;
+    string link_value = "2, 3";
+
+    REQUIRE(stream.str() == link_value);
+
+    list.push_back(5);
+    list.push_back(4);
+
+    std::ostringstream new_stream;
+    new_stream << list;
+
+    string list_value = "2, 3, 5, 4";
+
+    REQUIRE(new_stream.str() == list_value);
+}
+
+TEST_CASE("Testing == operator base case") {
+    LinkedList list1;
+    LinkedList list2;
+
+    REQUIRE(list1 == list2);
+}
+
+TEST_CASE("Testing == operator") {
+    LinkedList list1;
+    LinkedList list2;
+
+    list1.push_back(4);
+    list1.push_back(5);
+    list1.push_back(5);
+
+    list2.push_back(4);
+    list2.push_back(5);
+    list2.push_back(5);
+
+    REQUIRE(list1 == list2);
+}
+
+TEST_CASE("Testing == failure") {
+    LinkedList list1;
+    LinkedList list2;
+
+    list1.push_back(4);
+
+    REQUIRE(!(list1 == list2));
+
+    list1.push_back(1);
+
+    list2.push_back(4);
+    list2.push_back(2);
+
+    REQUIRE(!(list1 == list2));
+}
+
+TEST_CASE("Testing != operator base case") {
+    LinkedList list1;
+    LinkedList list2;
+
+    REQUIRE(!(list1 != list2));
+}
+
+TEST_CASE("Testing != operator") {
+    LinkedList list1;
+    LinkedList list2;
+
+    list1.push_back(4);
+    list1.push_back(5);
+    list1.push_back(5);
+
+    list2.push_back(4);
+    list2.push_back(5);
+    list2.push_back(5);
+
+    REQUIRE(!(list1 != list2));
+}
+
+TEST_CASE("Testing !=") {
+    LinkedList list1;
+    LinkedList list2;
+
+    list1.push_back(4);
+
+    REQUIRE(!(list1 == list2));
+
+    list1.push_back(1);
+
+    list2.push_back(4);
+    list2.push_back(2);
+
+    REQUIRE(list1 != list2);
+}

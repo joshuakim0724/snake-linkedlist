@@ -149,6 +149,12 @@ TEST_CASE("Pop back") {
     REQUIRE(test_list.size() == 0);
 }
 
+TEST_CASE("Pop Null LinkedList") {
+    LinkedList list;
+    list.pop_back();
+    list.pop_front();
+}
+
 TEST_CASE("Remove 0 Nth") {
     LinkedList test_list = LinkedList();
 
