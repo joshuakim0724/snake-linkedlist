@@ -36,6 +36,7 @@ namespace snakelinkedlist {
     }
 
     // Move Constructor
+    // 
     LinkedList::LinkedList(LinkedList &&source) noexcept {
         head_ = source.head_;
         source.head_ = nullptr;

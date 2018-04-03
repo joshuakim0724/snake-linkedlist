@@ -8,6 +8,8 @@
 using namespace snakelinkedlist;
 using std::string;
 
+std::ostringstream stream;
+
 TEST_CASE("Testing Base Constructor") {
     LinkedList list = LinkedList();
 
@@ -65,7 +67,30 @@ TEST_CASE("Testing Copy Constructor is Deep Copy #2") {
     REQUIRE(linkedList2.size() == 0);
 }
 
-TEST_CASE("Move Constructor") {
+TEST_CASE("Move Constructor Base Case") {
+    LinkedList list;
+    LinkedList test_data(*(new LinkedList()));
 
-    LinkedList test_list(*(new LinkedList()));
+    REQUIRE(list == test_data);
+}
+
+TEST_CASE("Move Constructor") {
+    std::vector<SnakeBodySegment> data;
+
+    SnakeBodySegment snakebody1(1);
+    SnakeBodySegment snakebody2(2);
+    SnakeBodySegment snakebody3(3);
+
+    data.push_back(snakebody1);
+    data.push_back(snakebody2);
+    data.push_back(snakebody3);
+
+    LinkedList dataList(data);
+
+    LinkedList test_data(std::move(dataList));
+
+    stream << test_data;
+
+    REQUIRE(dataList.size() == 0);
+    REQUIRE(stream.str() == "1, 2, 3");
 }
