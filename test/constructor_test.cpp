@@ -6,8 +6,35 @@
 #include "../test/catch.hpp"
 #include "../src/ll.h"
 using namespace snakelinkedlist;
+using std::string;
 
-TEST_CASE("Null Copy Constructor") {
+TEST_CASE("Testing Base Constructor") {
+    LinkedList list = LinkedList();
+
+    REQUIRE(list.size() == 0);
+}
+
+TEST_CASE("Testing Constructor Using Array") {
+    std::vector<SnakeBodySegment> snake_vector;
+    SnakeBodySegment snakebody1(2);
+    SnakeBodySegment snakebody2(3);
+    SnakeBodySegment snakebody3(4);
+    snake_vector.push_back(snakebody1);
+    snake_vector.push_back(snakebody2);
+    snake_vector.push_back(snakebody3);
+
+    LinkedList list = LinkedList(snake_vector);
+
+    REQUIRE(list.size() == 3);
+
+    std::ostringstream stream;
+    stream << list;
+    string snake_values = "2, 3, 4";
+
+    REQUIRE(stream.str() == snake_values);
+}
+
+TEST_CASE("Testing Copy Constructor is Deep Copy") {
     LinkedList linkedList = LinkedList();
 
     SnakeBodySegment snakebody1(2);
@@ -26,9 +53,14 @@ TEST_CASE("Null Copy Constructor") {
     REQUIRE(linkedList2.size() == 3);
 }
 
-TEST_CASE("Copy Constructor With Values") {
+TEST_CASE("Testing Copy Constructor is Deep Copy #2") {
     LinkedList linkedList = LinkedList();
     LinkedList linkedList2 = LinkedList(linkedList);
 
-    REQUIRE(linkedList == linkedList2);
+    SnakeBodySegment snakebody1(2);
+
+    linkedList.push_back(snakebody1);
+
+    REQUIRE(linkedList.size() == 1);
+    REQUIRE(linkedList2.size() == 0);
 }

@@ -8,3 +8,5 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(constructor_test "test/constructor_test.cpp" src/ll.cpp src/snakebody.cpp)
 
 add_executable(modifers_test "test/modifiers_test.cpp" src/ll.cpp src/snakebody.cpp)
+
+add_executable(accessors_test "test/accessors_test.cpp" src/ll.cpp src/snakebody.cpp)

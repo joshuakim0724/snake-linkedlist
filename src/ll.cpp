@@ -20,7 +20,6 @@ namespace snakelinkedlist {
     }
 
     // Copy constructor
-    // Make two LinkedList and make sure values are different
     LinkedList::LinkedList(const LinkedList &source) {
         if (source.head_) {
             ListNode *current_node = source.head_;
@@ -37,7 +36,6 @@ namespace snakelinkedlist {
     }
 
     // Move Constructor
-    //
     LinkedList::LinkedList(LinkedList &&source) noexcept {
         head_ = source.head_;
         source.head_ = nullptr;
@@ -50,7 +48,6 @@ namespace snakelinkedlist {
     }
 
     // Copy assignment operator
-    //
     LinkedList &LinkedList::operator=(const LinkedList &source) {
         if (this == &source) {
             return *this;
@@ -62,6 +59,8 @@ namespace snakelinkedlist {
             head_ = new ListNode(*source.head_);
         }
         return *this;
+//        this->head_ = source.head_;
+//        return *this;
     }
 
     // Move assignment operator
@@ -171,10 +170,17 @@ namespace snakelinkedlist {
     //----------------------------------------------Accessors-----------------------------------------------------------
 
     SnakeBodySegment LinkedList::front() const {
+        if (size() == 0) {
+            return {};
+        }
         return head_->data_;
     }
 
     SnakeBodySegment LinkedList::back() const {
+        if (size() == 0) {
+            return {};
+        }
+
         ListNode *current_node = head_;
 
         while (current_node->next_) {
