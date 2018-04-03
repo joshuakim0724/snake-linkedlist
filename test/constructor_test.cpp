@@ -11,7 +11,7 @@ using std::string;
 TEST_CASE("Testing Base Constructor") {
     LinkedList list = LinkedList();
 
-    REQUIRE(list.size() == 0);
+    REQUIRE(list.empty());
 }
 
 TEST_CASE("Testing Constructor Using Array") {
@@ -63,4 +63,9 @@ TEST_CASE("Testing Copy Constructor is Deep Copy #2") {
 
     REQUIRE(linkedList.size() == 1);
     REQUIRE(linkedList2.size() == 0);
+}
+
+TEST_CASE("Move Constructor") {
+
+    LinkedList test_list(*(new LinkedList()));
 }

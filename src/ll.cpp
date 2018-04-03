@@ -42,7 +42,6 @@ namespace snakelinkedlist {
     }
 
     // Destructor
-    // Memeory leak testing
     LinkedList::~LinkedList() {
         clear();
     }
@@ -56,10 +55,25 @@ namespace snakelinkedlist {
         delete head_;
         head_ = nullptr;
         if (source.head_) {
-            head_ = new ListNode(*source.head_);
+            ListNode *current_node = source.head_;
+            head_ = new ListNode(current_node->data_);
+            current_node = current_node->next_;
+
+            while (current_node) {
+                this->push_back(current_node->data_);
+                current_node = current_node->next_;
+            }
         }
         return *this;
-//        this->head_ = source.head_;
+//        if (this == &source) {
+//            return *this;
+//        }
+//
+//        delete head_;
+//        head_ = nullptr;
+//        if (source.head_) {
+//            head_ = new ListNode(*source.head_);
+//        }
 //        return *this;
     }
 
@@ -71,7 +85,15 @@ namespace snakelinkedlist {
 
         delete head_;
         head_ = source.head_;
-        source.head_ = nullptr;
+        ListNode *current_node = source.head_;
+        ListNode *next_node;
+
+        while (current_node) {
+            next_node = current_node->next_;
+            current_node = nullptr;
+            current_node = next_node;
+        }
+
 
         return *this;
     }
@@ -245,21 +267,23 @@ namespace snakelinkedlist {
     }
 
     bool LinkedList::operator==(const LinkedList &rhs) const {
-        if (rhs.head_ == nullptr) {
+        if (this->head_ == nullptr && rhs.head_ == nullptr) {
             return true;
         }
-
-        ListNode *current_node = rhs.head_;
-        SnakeBodySegment compare_value = current_node->data_;
-        current_node = current_node->next_;
-
-        while (current_node) {
-            if (current_node->data_ != compare_value) {
-                return false;
-            }
-            current_node = current_node->next_;
+        if (this->size() != rhs.size()) {
+            return false;
         }
 
+        ListNode *this_runner = this->head_;
+        ListNode *other_runner = rhs.head_;
+
+        while (this_runner) {
+            if (this_runner->data_ != other_runner->data_) {
+                return false;
+            }
+            this_runner = this_runner->next_;
+            other_runner = other_runner->next_;
+        }
         return true;
     }
 
@@ -273,4 +297,24 @@ namespace snakelinkedlist {
         }
         return true;
     }
+
+    // Accidentally made it so it checked if all the elements in a LinkedList were the same
+//    bool LinkedList::operator==(const LinkedList &rhs) const {
+//        if (rhs.head_ == nullptr) {
+//            return true;
+//        }
+//
+//        ListNode *current_node = rhs.head_;
+//        SnakeBodySegment compare_value = current_node->data_;
+//        current_node = current_node->next_;
+//
+//        while (current_node) {
+//            if (current_node->data_ != compare_value) {
+//                return false;
+//            }
+//            current_node = current_node->next_;
+//        }
+//
+//        return true;
+//    }
 } // namespace snakelinkedlist
