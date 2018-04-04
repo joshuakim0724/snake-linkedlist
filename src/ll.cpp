@@ -355,7 +355,7 @@ namespace snakelinkedlist {
      */
     bool operator!=(const LinkedList& lhs, const LinkedList& rhs) {
         std::vector<SnakeBodySegment> snake_value1 = lhs.GetVector();
-        std::vector<SnakeBodySegment> snake_value2 = lhs.GetVector();
+        std::vector<SnakeBodySegment> snake_value2 = rhs.GetVector();
 
         return !(snake_value1 == snake_value2);
     }

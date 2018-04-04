@@ -230,10 +230,9 @@ TEST_CASE("Testing !=") {
 
     REQUIRE(!(list1 == list2));
 
-    list1.push_back(1);
+    list1.push_back(5);
 
     list2.push_back(4);
     list2.push_back(2);
-
     REQUIRE(list1 != list2);
 }
