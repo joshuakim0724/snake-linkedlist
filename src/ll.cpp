@@ -187,7 +187,7 @@ namespace snakelinkedlist {
 
         int index = 0;
         ListNode *remove_node = head_;
-        ListNode *head_connector;
+        ListNode *head_connector = nullptr;
 
         // This will get the node before and after the node that is going to get removed (head & tail)
         while (index != n) {
