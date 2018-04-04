@@ -12,7 +12,7 @@ using std::string;
 TEST_CASE("push front 1 Value") {
     LinkedList linkedList = LinkedList();
 
-    REQUIRE(linkedList.size() == 0);
+    REQUIRE(linkedList.empty());
 
     SnakeBodySegment snakebody(5);
     linkedList.push_front(snakebody);
@@ -49,7 +49,7 @@ TEST_CASE("Push Front 3 Values") {
 TEST_CASE("push back 1 Value") {
     LinkedList linkedList = LinkedList();
 
-    REQUIRE(linkedList.size() == 0);
+    REQUIRE(linkedList.empty());
 
     SnakeBodySegment snakebody(5);
     linkedList.push_back(snakebody);
@@ -146,7 +146,7 @@ TEST_CASE("Pop back") {
 
     test_list.pop_back();
 
-    REQUIRE(test_list.size() == 0);
+    REQUIRE(test_list.empty());
 }
 
 TEST_CASE("Pop Null LinkedList") {
@@ -250,5 +250,5 @@ TEST_CASE("Clear LinkedList") {
 
     test_list.clear();
 
-    REQUIRE(test_list.size() == 0);
+    REQUIRE(test_list.empty());
 }

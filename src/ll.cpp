@@ -80,7 +80,10 @@ namespace snakelinkedlist {
 
         while (current_node) {
             next_node = current_node->next_;
+
             current_node = nullptr;
+            delete current_node;
+
             current_node = next_node;
         }
 
@@ -111,7 +114,7 @@ namespace snakelinkedlist {
             return;
         }
 
-        ListNode *tail_node = new ListNode(value);
+        auto *tail_node = new ListNode(value);
 
         while (current_node->next_) {
             current_node = current_node->next_;
@@ -193,7 +196,7 @@ namespace snakelinkedlist {
             remove_node = remove_node->next_;
         }
 
-        ListNode *tail_connector = remove_node->next_;
+        auto tail_connector = remove_node->next_;
         remove_node = nullptr;
         delete remove_node;
 

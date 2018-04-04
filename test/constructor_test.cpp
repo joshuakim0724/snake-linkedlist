@@ -64,7 +64,7 @@ TEST_CASE("Testing Copy Constructor is Deep Copy #2") {
     linkedList.push_back(snakebody1);
 
     REQUIRE(linkedList.size() == 1);
-    REQUIRE(linkedList2.size() == 0);
+    REQUIRE(linkedList2.empty());
 }
 
 TEST_CASE("Move Constructor Base Case") {
@@ -91,6 +91,6 @@ TEST_CASE("Move Constructor") {
 
     stream << test_data;
 
-    REQUIRE(dataList.size() == 0);
+    REQUIRE(dataList.empty());
     REQUIRE(stream.str() == "1, 2, 3");
 }
