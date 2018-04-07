@@ -16,7 +16,7 @@ TEST_CASE("Testing Base Constructor") {
     REQUIRE(list.empty());
 }
 
-TEST_CASE("Testing Constructor Using Array") {
+TEST_CASE("Testing Constructor Using Vector") {
     std::vector<SnakeBodySegment> snake_vector;
     SnakeBodySegment snakebody1(2);
     SnakeBodySegment snakebody2(3);

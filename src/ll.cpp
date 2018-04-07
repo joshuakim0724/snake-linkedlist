@@ -5,8 +5,7 @@ namespace snakelinkedlist {
     /**
      * Default Constructor;
      */
-    LinkedList::LinkedList() {
-        head_ = nullptr;
+    LinkedList::LinkedList() : head_(nullptr){
     }
 
     /**
@@ -14,6 +13,11 @@ namespace snakelinkedlist {
      * @param values
      */
     LinkedList::LinkedList(const std::vector<SnakeBodySegment> &values) {
+        if (values.empty()) {
+            head_ = nullptr;
+            return;
+        }
+
         for (auto value : values) {
             push_back(value);
         }
@@ -22,10 +26,13 @@ namespace snakelinkedlist {
     // Copy constructor
     LinkedList::LinkedList(const LinkedList &source) {
         if (source.head_) {
+
+            // Copying Head
             ListNode *current_node = source.head_;
             head_ = new ListNode(current_node->data_);
             current_node = current_node->next_;
 
+            // Copying rest of nodes
             while (current_node) {
                 this->push_back(current_node->data_);
                 current_node = current_node->next_;
@@ -52,8 +59,8 @@ namespace snakelinkedlist {
             return *this;
         }
 
-        delete head_;
-        head_ = nullptr;
+        clear();
+
         if (source.head_) {
             ListNode *current_node = source.head_;
             head_ = new ListNode(current_node->data_);
@@ -75,17 +82,19 @@ namespace snakelinkedlist {
 
         delete head_;
         head_ = source.head_;
-        ListNode *current_node = source.head_;
-        ListNode *next_node;
-
-        while (current_node) {
-            next_node = current_node->next_;
-
-            current_node = nullptr;
-            delete current_node;
-
-            current_node = next_node;
-        }
+        source.head_ = nullptr;
+        // Apparently don't need this
+//        ListNode *current_node = source.head_;
+//        ListNode *next_node;
+//
+//        while (current_node) {
+//            next_node = current_node->next_;
+//
+//            current_node = nullptr;
+//            delete current_node;
+//
+//            current_node = next_node;
+//        }
 
         return *this;
     }
@@ -162,8 +171,8 @@ namespace snakelinkedlist {
             remove_node = remove_node->next_;
         }
 
-        remove_node->next_ = nullptr;
         delete remove_node->next_;
+        remove_node->next_ = nullptr;
     }
 
     /**
@@ -209,7 +218,7 @@ namespace snakelinkedlist {
     void LinkedList::clear() {
         int length = size();
 
-        while (length > 0) {
+        while (length > 0) { // Can also do while (size() > 0) and remove length variables
             pop_back();
             length = length - 1;
         }
@@ -262,7 +271,6 @@ namespace snakelinkedlist {
             size++;
             current_node = current_node->next_;
         }
-        delete current_node;
         return size;
     }
 
@@ -270,7 +278,7 @@ namespace snakelinkedlist {
      * @return - a vector that contains all the elements in the list
      */
     std::vector<SnakeBodySegment> LinkedList::GetVector() const {
-        std::vector<SnakeBodySegment> *snake_value = new std::vector<SnakeBodySegment>();
+        auto *snake_value = new std::vector<SnakeBodySegment>();
 
         // If LinkedList doesn't exist return empty vector;
         if (head_ == nullptr) {
@@ -286,8 +294,6 @@ namespace snakelinkedlist {
 
             snake_value->push_back(current_value);
         }
-
-        delete current_node;
 
         return *snake_value;
     }
@@ -325,7 +331,7 @@ namespace snakelinkedlist {
     bool LinkedList::operator==(const LinkedList &rhs) const {
 
         // If both lists are nullptr
-        if (this->head_ == nullptr && rhs.head_ == nullptr) {
+        if (!this->head_ && !rhs.head_) {
             return true;
         }
 
@@ -339,7 +345,7 @@ namespace snakelinkedlist {
 
         while (this_runner) {
 
-            //If the SnakeData is ever not the same, return false
+            // If the SnakeData is ever not the same, return false
             if (this_runner->data_ != other_runner->data_) {
                 return false;
             }
