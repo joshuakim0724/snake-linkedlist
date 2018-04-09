@@ -5,12 +5,11 @@
 namespace snakelinkedlist {
 
     template<typename ElementType>
-    LinkedList<ElementType>::LinkedList() : head_(nullptr), tail_(nullptr), size_(0) {
+    LinkedList<ElementType>::LinkedList() : head_(nullptr), size_(0) {
     }
 
     template<typename ElementType>
-    LinkedList<ElementType>::LinkedList(const std::vector<ElementType> &values) : head_(nullptr), tail_(nullptr),
-                                                                                  size_(0) {
+    LinkedList<ElementType>::LinkedList(const std::vector<ElementType> &values) : head_(nullptr), size_(0) {
 
     }
 
@@ -29,13 +28,11 @@ namespace snakelinkedlist {
             // Copying rest of nodes
             while (current_node) {
                 this->push_back(current_node->data_);
-                tail_ = current_node;
                 current_node = current_node->next_;
                 size_++;
             }
         } else {
             head_ = nullptr;
-            tail_ = nullptr;
         }
     }
 
@@ -43,11 +40,9 @@ namespace snakelinkedlist {
     template<typename ElementType>
     LinkedList<ElementType>::LinkedList(LinkedList<ElementType> &&source) noexcept {
         head_ = source.head_;
-        tail_ = source.tail_;
         size_ = 0;
 
         source.head_ = nullptr;
-        source.tail_ = nullptr;
         source.size_ = 0;
     }
 
@@ -75,7 +70,6 @@ namespace snakelinkedlist {
 
             while (current_node) {
                 this->push_back(current_node->data_);
-                tail_ = current_node;
                 current_node = current_node->next_;
                 size_++;
             }
@@ -91,15 +85,12 @@ namespace snakelinkedlist {
         }
 
         delete head_;
-        delete tail_;
         size_ = 0;
 
         head_ = source.head_;
-        tail_ = source.tail_;
         size_ = source.size_;
 
         source.head_ = nullptr;
-        source.tail_ = nullptr;
         source.size_ = 0;
 
         return *this;
@@ -148,7 +139,9 @@ namespace snakelinkedlist {
         if (!head_ || size_ == 0) {
             return {};
         }
+
         ListNode *current_node = head_;
+
         while (current_node->next_) {
             current_node=current_node->next_;
         }
@@ -233,6 +226,7 @@ namespace snakelinkedlist {
         while (size() > 0) { // Can also do while (size() > 0) and remove length variables
             pop_back();
         }
+        size_ = 0;
     }
 
     template<typename ElementType>
@@ -282,6 +276,7 @@ namespace snakelinkedlist {
         delete remove_node;
 
         head_connector->next_ = tail_connector;
+        size_--;
     }
 
     template<typename ElementType>

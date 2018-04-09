@@ -19,7 +19,6 @@ class LinkedList {
     };
 
     ListNode *head_;
-    ListNode *tail_;
     int size_;
 public:
     LinkedList();                                                   // Default constructor
