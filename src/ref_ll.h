@@ -11,15 +11,15 @@ template<typename ElementType>
 class LinkedList {
 
     // Internal node for linked list.
-    struct LinkedListNode {
-        LinkedListNode() : next_(nullptr) {};
-        LinkedListNode(ElementType v) : next_(nullptr), data_(v) {};
-        LinkedListNode *next_;
+    struct ListNode {
+        ListNode() : next_(nullptr) {};
+        ListNode(ElementType v) : next_(nullptr), data_(v) {};
+        ListNode *next_;
         ElementType data_;
     };
 
-    LinkedListNode *head_;
-    LinkedListNode *tail_;
+    ListNode *head_;
+    ListNode *tail_;
     int size_;
 public:
     LinkedList();                                                   // Default constructor
@@ -35,7 +35,7 @@ public:
     void push_front(ElementType value);         // Push value on front
     void push_back(ElementType value);          // Push value on back
     ElementType front() const;                  // Access the front value
-    ElementType back() const;                   // Access the back valueW
+    ElementType back() const;                   // Access the back value
     void pop_front();                           // remove front element
     void pop_back();                            // remove back element
     int size() const;                           // return number of elements
@@ -47,7 +47,7 @@ public:
 
     // Iterator
     class Iterator : std::iterator<std::forward_iterator_tag, ElementType> {
-        LinkedListNode *current_;
+        ListNode *current_;
         friend LinkedList<ElementType>;
     public:
         Iterator() : current_(nullptr) {};
