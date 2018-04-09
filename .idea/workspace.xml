@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="snake-linked-list" targetName="accessors_test" />
+      <config projectName="snake-linked-list" targetName="modifers_test" />
+      <config projectName="snake-linked-list" targetName="constructor_test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e0f935e-78a3-468f-902d-95e98d6fa89b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="accessors_test.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/accessors_test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1252">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ll.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ll.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ll.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ll.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>snakebodySegmeent</find>
+      <find>size</find>
+      <find>pop</find>
+      <find>new</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/snakebody.cpp" />
+        <option value="$PROJECT_DIR$/test/ll_test.cpp" />
+        <option value="$PROJECT_DIR$/src/ll.h" />
+        <option value="$PROJECT_DIR$/test/modifiers_test.cpp" />
+        <option value="$PROJECT_DIR$/test/accessors_test.cpp" />
+        <option value="$PROJECT_DIR$/src/ll.cpp" />
+        <option value="$PROJECT_DIR$/test/constructor_test.cpp" />
+        <option value="$PROJECT_DIR$/src/ref_ll.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="115" />
+    <option name="width" value="1709" />
+    <option name="height" value="965" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="snake-linked-list" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="snake-linked-list-joshuakim0724" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snake-linked-list" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="snake-linked-list-joshuakim0724" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="snake-linked-list" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="snake-linked-list-joshuakim0724" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.modifers_test">
+    <configuration name="Accessors_test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Constructor_test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="constructor_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="constructor_test" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Modifiers_test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="modifers_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="modifers_test" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Move Constructor" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="constructor_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="constructor_test" TEST_METHOD="Move Constructor" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Pop back" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="modifers_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="modifers_test" TEST_METHOD="Pop back" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Testing != operator base case" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test" TEST_METHOD="Testing != operator base case" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Testing != operator" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test" TEST_METHOD="Testing != operator" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Testing !=" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test" TEST_METHOD="Testing !=" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="modifers_test" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="accessors_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test">
+      <envs />
+    </configuration>
+    <configuration name="constructor_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="constructor_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="constructor_test">
+      <envs />
+    </configuration>
+    <configuration name="modifers_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="modifers_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="modifers_test">
+      <envs />
+    </configuration>
+    <list size="12">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.accessors_test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.constructor_test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.modifers_test" />
+      <item index="4" class="java.lang.String" itemvalue="Catch.Modifiers_test" />
+      <item index="5" class="java.lang.String" itemvalue="Catch.Constructor_test" />
+      <item index="6" class="java.lang.String" itemvalue="Catch.Accessors_test" />
+      <item index="7" class="java.lang.String" itemvalue="Catch.Testing != operator base case" />
+      <item index="8" class="java.lang.String" itemvalue="Catch.Testing != operator" />
+      <item index="9" class="java.lang.String" itemvalue="Catch.Move Constructor" />
+      <item index="10" class="java.lang.String" itemvalue="Catch.Testing !=" />
+      <item index="11" class="java.lang.String" itemvalue="Catch.Pop back" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Catch.Pop back" />
+        <item index="1" class="java.lang.String" itemvalue="Catch.Testing != operator" />
+        <item index="2" class="java.lang.String" itemvalue="Catch.Testing !=" />
+        <item index="3" class="java.lang.String" itemvalue="Catch.Move Constructor" />
+        <item index="4" class="java.lang.String" itemvalue="Catch.Testing != operator base case" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e0f935e-78a3-468f-902d-95e98d6fa89b" name="Default" comment="" />
+      <created>1522632525469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522632525469</updated>
+      <workItem from="1522632527091" duration="40982000" />
+      <workItem from="1522994739213" duration="103000" />
+      <workItem from="1523055594402" duration="5037000" />
+    </task>
+    <task id="LOCAL-00001" summary="Made a CMAKE and Added a ListNode to ll files">
+      <created>1522694557334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522694557334</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Made Constructors/copy/move/destructor">
+      <created>1522700330157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522700330157</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created push_back and Push_front and created linkedlist constructor">
+      <created>1522705440602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522705440602</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented GetVector()">
+      <created>1522707142463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522707142463</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created Modifers_test and implemented some methods">
+      <created>1522729712811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522729712812</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Debugged and added more tests">
+      <created>1522737947264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522737947264</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added more tests">
+      <created>1522740039664</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1522740039664</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Tests, Changed Constructors and redid override ==">
+      <created>1522778802637</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522778802637</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added some more constructor tests">
+      <created>1522780095088</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522780095088</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added More Tests and added comments">
+      <created>1522792409509</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1522792409509</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added Constructor Tests">
+      <created>1522808299154</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1522808299155</updated>
+    </task>
+    <task id="LOCAL-00012" summary="BuFixed operator!= bug">
+      <created>1522810605521</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1522810605521</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changed a line of code">
+      <created>1522815609948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1522815609948</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Some updates to constructors and deleting stuff">
+      <created>1523060701802</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1523060701803</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Pop_back - 2018.04.06 at 18h 37m 15s.xml">
+      <configuration name="Pop back" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_!= - 2018.04.03 at 21h 20m 39s.xml">
+      <configuration name="Testing !=" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_!= - 2018.04.03 at 21h 20m 58s.xml">
+      <configuration name="Testing !=" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_!= - 2018.04.03 at 21h 21m 58s.xml">
+      <configuration name="Testing !=" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_!= - 2018.04.03 at 21h 49m 17s.xml">
+      <configuration name="Testing !=" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_!=_operator - 2018.04.03 at 16h 52m 18s.xml">
+      <configuration name="Testing != operator" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_!=_operator - 2018.04.03 at 21h 20m 21s.xml">
+      <configuration name="Testing != operator" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_!=_operator - 2018.04.03 at 21h 49m 20s.xml">
+      <configuration name="Testing != operator" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_!=_operator_base_case - 2018.04.03 at 16h 51m 45s.xml">
+      <configuration name="Testing != operator base case" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Testing_==_failure - 2018.04.03 at 16h 50m 33s.xml">
+      <configuration name="Testing == failure" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46122000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2397163" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26524824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27801418" sideWeight="0.503125" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27801418" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made a CMAKE and Added a ListNode to ll files" />
+    <MESSAGE value="Made Constructors/copy/move/destructor" />
+    <MESSAGE value="Created push_back and Push_front and created linkedlist constructor" />
+    <MESSAGE value="Implemented GetVector()" />
+    <MESSAGE value="Created Modifers_test and implemented some methods" />
+    <MESSAGE value="Debugged and added more tests" />
+    <MESSAGE value="Added more tests" />
+    <MESSAGE value="Added Tests, Changed Constructors and redid override ==" />
+    <MESSAGE value="Added some more constructor tests" />
+    <MESSAGE value="Added More Tests and added comments" />
+    <MESSAGE value="Added Constructor Tests" />
+    <MESSAGE value="BuFixed operator!= bug" />
+    <MESSAGE value="Changed a line of code" />
+    <MESSAGE value="Some updates to constructors" />
+    <MESSAGE value="Some updates to constructors and deleting stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some updates to constructors and deleting stuff" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/accessors_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/constructor_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding>
+            <element signature="e#69#97#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/modifiers_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3780">
+          <caret line="252" column="14" lean-forward="false" selection-start-line="252" selection-start-column="14" selection-end-line="252" selection-end-column="14" />
+          <folding>
+            <marker date="1522792542237" expanded="true" signature="78:120" ph="..." />
+            <marker date="1522792542237" expanded="true" signature="284:608" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="643:1086" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1119:1442" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1476:1916" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1941:2588" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="2612:3382" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="3417:3484" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="3512:4124" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="4152:4764" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="4801:5299" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="5331:5690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ll.h" />
+    <entry file="file://$PROJECT_DIR$/src/ll.cpp" />
+    <entry file="file://$PROJECT_DIR$/test/accessors_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3555">
+          <caret line="237" column="1" lean-forward="false" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/constructor_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding>
+            <element signature="e#69#97#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/modifiers_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3780">
+          <caret line="252" column="14" lean-forward="false" selection-start-line="252" selection-start-column="14" selection-end-line="252" selection-end-column="14" />
+          <folding>
+            <marker date="1522792542237" expanded="true" signature="78:120" ph="..." />
+            <marker date="1522792542237" expanded="true" signature="284:608" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="643:1086" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1119:1442" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1476:1916" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1941:2588" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="2612:3382" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="3417:3484" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="3512:4124" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="4152:4764" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="4801:5299" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="5331:5690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Archive/ll.cpp" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snakebody.h" />
+    <entry file="file://$PROJECT_DIR$/test/catch.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="12551" column="0" lean-forward="false" selection-start-line="12551" selection-start-column="0" selection-end-line="12551" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snakebody.cpp" />
+    <entry file="file://$PROJECT_DIR$/test/accessors_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1252">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/modifiers_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="230" column="16" lean-forward="false" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+          <folding>
+            <marker date="1522792542237" expanded="true" signature="78:120" ph="..." />
+            <marker date="1522792542237" expanded="true" signature="284:608" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="643:1086" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1119:1442" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1476:1916" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="1941:2588" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="2612:3382" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="3417:3484" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="3512:4124" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="4152:4764" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="4801:5299" ph="{...}" />
+            <marker date="1522792542237" expanded="true" signature="5331:5690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/constructor_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#69#97#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ll.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ref_ll.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#27#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ref_ll.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ll.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
