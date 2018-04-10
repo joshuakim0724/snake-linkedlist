@@ -18,6 +18,20 @@ vector
 snakebody.h
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.h
 
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.cpp
+utility
+-
+ref_ll.h
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h
+
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h
+iostream
+-
+vector
+-
+ref_ll.cpp
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.cpp
+
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.cpp
 snakebody.h
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.h
@@ -415,6 +429,8 @@ algorithm
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/constructor_test.cpp
 ../test/catch.hpp
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/catch.hpp
-../src/ll.h
-/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.h
+../src/ref_ll.h
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h
+../src/snakebody.h
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.h
 
