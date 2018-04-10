@@ -14,12 +14,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0f935e-78a3-468f-902d-95e98d6fa89b" name="Default" comment="Fixed a bug and made a test for iterator_test">
+    <list default="true" id="7e0f935e-78a3-468f-902d-95e98d6fa89b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/constructor_test.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/constructor_test.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/constructor_test.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/constructor_test.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/constructor_test.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/constructor_test.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/test/iterator_test.cpp" afterPath="$PROJECT_DIR$/test/iterator_test.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +28,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iterator_test.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="iterator_test.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/iterator_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="249">
               <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
                 <element signature="e#68#96#0" expanded="true" />
@@ -44,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ref_ll.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ref_ll.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ref_ll.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="242" column="13" lean-forward="false" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
+            <state relative-caret-position="4950">
+              <caret line="330" column="19" lean-forward="true" selection-start-line="330" selection-start-column="19" selection-end-line="330" selection-end-column="19" />
               <folding>
                 <element signature="e#66#88#0" expanded="true" />
                 <element signature="e#182#204#0" expanded="true" />
@@ -94,8 +90,8 @@
       <file leaf-file-name="ref_ll.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ref_ll.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="-535">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -435,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523334398992</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixed a bug and made another test for iterator_test">
+      <created>1523335233241</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1523335233241</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -471,7 +474,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56413000" />
+    <option name="totallyTimeSpent" value="57164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1280" height="777" extended-state="0" />
@@ -536,7 +539,8 @@
     <MESSAGE value="Updated classes and created iterator_test" />
     <MESSAGE value="Added a test using begin() and end()" />
     <MESSAGE value="Fixed a bug and made a test for iterator_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug and made a test for iterator_test" />
+    <MESSAGE value="Fixed a bug and made another test for iterator_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug and made another test for iterator_test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -880,14 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ref_ll.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/catch.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -896,20 +892,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/iterator_test.cpp">
+    <entry file="file://$PROJECT_DIR$/src/ref_ll.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="e#68#96#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-535">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ref_ll.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="242" column="13" lean-forward="false" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
+        <state relative-caret-position="4950">
+          <caret line="330" column="19" lean-forward="true" selection-start-line="330" selection-start-column="19" selection-end-line="330" selection-end-column="19" />
           <folding>
             <element signature="e#66#88#0" expanded="true" />
             <element signature="e#182#204#0" expanded="true" />
@@ -937,6 +931,16 @@
             <element signature="e#8088#8110#0" expanded="true" />
             <element signature="e#8262#8284#0" expanded="true" />
             <element signature="e#8441#8463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/iterator_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="e#68#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
