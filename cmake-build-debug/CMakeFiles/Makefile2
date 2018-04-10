@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/c
 CMakeFiles/accessors_test.dir/all:
 	$(MAKE) -f CMakeFiles/accessors_test.dir/build.make CMakeFiles/accessors_test.dir/depend
 	$(MAKE) -f CMakeFiles/accessors_test.dir/build.make CMakeFiles/accessors_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6 "Built target accessors_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target accessors_test"
 .PHONY : CMakeFiles/accessors_test.dir/all
 
 # Include target in all.
@@ -103,7 +103,7 @@ clean: CMakeFiles/accessors_test.dir/clean
 CMakeFiles/modifers_test.dir/all:
 	$(MAKE) -f CMakeFiles/modifers_test.dir/build.make CMakeFiles/modifers_test.dir/depend
 	$(MAKE) -f CMakeFiles/modifers_test.dir/build.make CMakeFiles/modifers_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14 "Built target modifers_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15 "Built target modifers_test"
 .PHONY : CMakeFiles/modifers_test.dir/all
 
 # Include target in all.
@@ -140,7 +140,7 @@ clean: CMakeFiles/modifers_test.dir/clean
 CMakeFiles/constructor_test.dir/all:
 	$(MAKE) -f CMakeFiles/constructor_test.dir/build.make CMakeFiles/constructor_test.dir/depend
 	$(MAKE) -f CMakeFiles/constructor_test.dir/build.make CMakeFiles/constructor_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10 "Built target constructor_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8 "Built target constructor_test"
 .PHONY : CMakeFiles/constructor_test.dir/all
 
 # Include target in all.
@@ -171,39 +171,39 @@ clean: CMakeFiles/constructor_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Main2.dir
+# Target rules for target CMakeFiles/iterator_test.dir
 
 # All Build rule for target.
-CMakeFiles/Main2.dir/all:
-	$(MAKE) -f CMakeFiles/Main2.dir/build.make CMakeFiles/Main2.dir/depend
-	$(MAKE) -f CMakeFiles/Main2.dir/build.make CMakeFiles/Main2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Main2"
-.PHONY : CMakeFiles/Main2.dir/all
+CMakeFiles/iterator_test.dir/all:
+	$(MAKE) -f CMakeFiles/iterator_test.dir/build.make CMakeFiles/iterator_test.dir/depend
+	$(MAKE) -f CMakeFiles/iterator_test.dir/build.make CMakeFiles/iterator_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target iterator_test"
+.PHONY : CMakeFiles/iterator_test.dir/all
 
 # Include target in all.
-all: CMakeFiles/Main2.dir/all
+all: CMakeFiles/iterator_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Main2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Main2.dir/all
+CMakeFiles/iterator_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/iterator_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Main2.dir/rule
+.PHONY : CMakeFiles/iterator_test.dir/rule
 
 # Convenience name for target.
-Main2: CMakeFiles/Main2.dir/rule
+iterator_test: CMakeFiles/iterator_test.dir/rule
 
-.PHONY : Main2
-
-# clean rule for target.
-CMakeFiles/Main2.dir/clean:
-	$(MAKE) -f CMakeFiles/Main2.dir/build.make CMakeFiles/Main2.dir/clean
-.PHONY : CMakeFiles/Main2.dir/clean
+.PHONY : iterator_test
 
 # clean rule for target.
-clean: CMakeFiles/Main2.dir/clean
+CMakeFiles/iterator_test.dir/clean:
+	$(MAKE) -f CMakeFiles/iterator_test.dir/build.make CMakeFiles/iterator_test.dir/clean
+.PHONY : CMakeFiles/iterator_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/iterator_test.dir/clean
 
 .PHONY : clean
 

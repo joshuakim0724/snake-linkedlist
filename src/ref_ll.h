@@ -17,7 +17,7 @@ class LinkedList {
         ListNode *next_;
         ElementType data_;
     };
-
+private:
     ListNode *head_;
     ListNode *tail_;
     int size_;
@@ -64,7 +64,7 @@ template<typename ElementType>
 std::ostream& operator<<(std::ostream& os, const LinkedList<ElementType>& list);
 
 // needed for template instantiation
-#include "ll.cpp"
+#include "ref_ll.cpp"
 
 } // namespace snakelinkedlist
 #endif //LL_H

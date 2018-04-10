@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(Main src/ll.cpp src/snakebody.cpp )
 
-add_executable(Main2 src/ref_ll.cpp)
+add_executable(iterator_test "test/iterator_test.cpp" src/ref_ll.h src/snakebody.cpp src/snakebody.h)
 
 add_executable(constructor_test "test/constructor_test.cpp" src/ll.cpp src/snakebody.cpp)
 

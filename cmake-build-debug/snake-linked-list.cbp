@@ -163,8 +163,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Main2">
-				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Main2" prefix_auto="0" extension_auto="0"/>
+			<Target title="iterator_test">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/iterator_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -178,14 +178,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main2"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 iterator_test"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Main2/fast">
-				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Main2" prefix_auto="0" extension_auto="0"/>
+			<Target title="iterator_test/fast">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/iterator_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -199,7 +199,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main2/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 iterator_test/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -216,27 +216,26 @@
 			<Option target="modifers_test"/>
 			<Option target="constructor_test"/>
 		</Unit>
-		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.cpp">
-			<Option target="Main2"/>
-		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h">
-			<Option target="Main2"/>
+			<Option target="iterator_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.cpp">
 			<Option target="accessors_test"/>
 			<Option target="modifers_test"/>
 			<Option target="constructor_test"/>
+			<Option target="iterator_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.h">
-			<Option target="accessors_test"/>
-			<Option target="modifers_test"/>
-			<Option target="constructor_test"/>
+			<Option target="iterator_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/accessors_test.cpp">
 			<Option target="accessors_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/constructor_test.cpp">
 			<Option target="constructor_test"/>
+		</Unit>
+		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/iterator_test.cpp">
+			<Option target="iterator_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/modifiers_test.cpp">
 			<Option target="modifers_test"/>

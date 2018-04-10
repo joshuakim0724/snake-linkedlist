@@ -3,4 +3,4 @@
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles/modifers_test.dir
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles/constructor_test.dir
-/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles/Main2.dir
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles/iterator_test.dir
