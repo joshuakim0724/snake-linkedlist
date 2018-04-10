@@ -6,8 +6,16 @@ template<typename ElementType>
 LinkedList<ElementType>::LinkedList() : head_(nullptr), tail_(nullptr), size_(0) {}
 
 template<typename ElementType>
-LinkedList<ElementType>::LinkedList(const std::vector<ElementType> &values) : head_(nullptr), tail_(nullptr),
-                                                                              size_(0) {}
+LinkedList<ElementType>::LinkedList(const std::vector<ElementType> &values) : head_(nullptr), tail_(nullptr), size_(0) {
+    if (values.empty()) {
+        head_ = nullptr;
+        return;
+    }
+
+    for (auto value : values) {
+        push_back(value);
+    }
+}
 
 // Copy constructor
 template<typename ElementType>
@@ -343,7 +351,7 @@ ElementType &LinkedList<ElementType>::Iterator::operator*() {
 
 template<typename ElementType>
 bool LinkedList<ElementType>::Iterator::operator!=(const LinkedList<ElementType>::Iterator &other) {
-    return current_ != other.current_;
+    return (current_ != other.current_);
 }
 
 template<typename ElementType>
@@ -357,6 +365,8 @@ typename LinkedList<ElementType>::Iterator LinkedList<ElementType>::begin() {
 template<typename ElementType>
 typename LinkedList<ElementType>::Iterator LinkedList<ElementType>::end() {
     Iterator stop;
+
     stop.current_ = nullptr;
+
     return stop;
 }

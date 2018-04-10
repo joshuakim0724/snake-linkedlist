@@ -28,7 +28,7 @@ TEST_CASE("Testing Begin and End and the ++ Operator") {
     REQUIRE(count == list1.size());
 }
 
-TEST_CASE("Testing * Operator") {
+TEST_CASE("Testing * Operator and test traversal with iterator") {
     std::vector<SnakeBodySegment> snake_vector;
     SnakeBodySegment snakebody1(2);
     SnakeBodySegment snakebody2(3);
@@ -48,21 +48,41 @@ TEST_CASE("Testing * Operator") {
 }
 
 TEST_CASE("Testing != Operator") {
-//    std::vector<SnakeBodySegment> snake_vector;
-//    snake_vector.push_back(2);
-//    snake_vector.push_back(3);
-//    snake_vector.push_back(4);
-//
-//    std::vector<SnakeBodySegment> snake_vector2;
-//    snake_vector2.push_back(4);
-//    snake_vector2.push_back(3);
-//    snake_vector2.push_back(5);
-//
-//    LinkedList<SnakeBodySegment> list1 = LinkedList<SnakeBodySegment>(snake_vector);
-//    LinkedList<SnakeBodySegment> list2 = LinkedList<SnakeBodySegment>(snake_vector2);
-//
-//    LinkedList<SnakeBodySegment>::Iterator iterator1 = list1.begin();
-//    LinkedList<SnakeBodySegment>::Iterator iterator2 = list2.end();
-//
-//    REQUIRE(iterator1 != iterator2);
+    std::vector<int> vector1 = {1, 2, 3};
+    std::vector<int> vector2 = {4, 5, 6};
+
+    LinkedList<int> list1 = LinkedList<int>(vector1);
+    LinkedList<int> list2 = LinkedList<int>(vector2);
+
+
+    LinkedList<int>::Iterator first_element = list1.begin();
+    LinkedList<int>::Iterator last_element = list1.end();
+
+    REQUIRE((first_element != last_element));
+
+    LinkedList<int>::Iterator same_element_as_first = list1.begin();
+
+    REQUIRE(!(first_element != same_element_as_first));
+}
+
+TEST_CASE("Testing begin()") {
+    std::vector<string> vector1 = {"hello", "hi", "lol"};
+
+    LinkedList<string> list1 = LinkedList<string>(vector1);
+
+    LinkedList<string>::Iterator first_element = list1.begin();
+    LinkedList<string>::Iterator same_element = list1.begin();
+
+    REQUIRE(!(first_element != same_element));
+}
+
+TEST_CASE("Testing end()") {
+    std::vector<string> vector1 = {"hello", "hi", "lmao"};
+
+    LinkedList<string> list1 = LinkedList<string>(vector1);
+
+    LinkedList<string>::Iterator last_element = list1.end();
+    LinkedList<string>::Iterator same_element = list1.end();
+
+    REQUIRE(!(last_element != same_element));
 }
