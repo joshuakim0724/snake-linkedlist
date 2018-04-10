@@ -29,7 +29,6 @@ TEST_CASE("Testing Constructor Using Vector") {
 
     REQUIRE(list.size() == 3);
 
-    std::ostringstream stream;
     stream << list;
     string snake_values = "2, 3, 4";
 

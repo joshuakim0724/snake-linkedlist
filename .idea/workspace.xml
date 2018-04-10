@@ -14,8 +14,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0f935e-78a3-468f-902d-95e98d6fa89b" name="Default" comment="Added a test">
+    <list default="true" id="7e0f935e-78a3-468f-902d-95e98d6fa89b" name="Default" comment="Added a test using begin() and end()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/constructor_test" afterPath="$PROJECT_DIR$/cmake-build-debug/constructor_test" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/modifers_test" afterPath="$PROJECT_DIR$/cmake-build-debug/modifers_test" />
+      <change beforePath="$PROJECT_DIR$/test/constructor_test.cpp" afterPath="$PROJECT_DIR$/test/constructor_test.cpp" />
       <change beforePath="$PROJECT_DIR$/test/iterator_test.cpp" afterPath="$PROJECT_DIR$/test/iterator_test.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -32,93 +35,10 @@
       <file leaf-file-name="iterator_test.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/iterator_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#68#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constructor_test.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/constructor_test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#69#97#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ref_ll.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ref_ll.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="e#27#46#0" expanded="true" />
-                <element signature="e#133#155#0" expanded="true" />
-                <element signature="e#2481#2503#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ref_ll.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ref_ll.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3645">
-              <caret line="243" column="42" lean-forward="false" selection-start-line="243" selection-start-column="42" selection-end-line="243" selection-end-column="42" />
-              <folding>
-                <element signature="e#66#88#0" expanded="true" />
-                <element signature="e#182#204#0" expanded="true" />
-                <element signature="e#434#456#0" expanded="true" />
-                <element signature="e#1073#1095#0" expanded="true" />
-                <element signature="e#1348#1370#0" expanded="true" />
-                <element signature="e#1464#1486#0" expanded="true" />
-                <element signature="e#2102#2124#0" expanded="true" />
-                <element signature="e#2525#2547#0" expanded="true" />
-                <element signature="e#2728#2750#0" expanded="true" />
-                <element signature="e#3158#3180#0" expanded="true" />
-                <element signature="e#3382#3404#0" expanded="true" />
-                <element signature="e#3675#3697#0" expanded="true" />
-                <element signature="e#3911#3933#0" expanded="true" />
-                <element signature="e#4430#4452#0" expanded="true" />
-                <element signature="e#4526#4548#0" expanded="true" />
-                <element signature="e#5071#5093#0" expanded="true" />
-                <element signature="e#5184#5206#0" expanded="true" />
-                <element signature="e#5370#5392#0" expanded="true" />
-                <element signature="e#5792#5814#0" expanded="true" />
-                <element signature="e#6843#6865#0" expanded="true" />
-                <element signature="e#7538#7560#0" expanded="true" />
-                <element signature="e#7717#7739#0" expanded="true" />
-                <element signature="e#7964#7986#0" expanded="true" />
-                <element signature="e#8088#8110#0" expanded="true" />
-                <element signature="e#8262#8284#0" expanded="true" />
-                <element signature="e#8441#8463#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,12 +70,12 @@
         <option value="$PROJECT_DIR$/test/ll_test.cpp" />
         <option value="$PROJECT_DIR$/test/modifiers_test.cpp" />
         <option value="$PROJECT_DIR$/test/accessors_test.cpp" />
-        <option value="$PROJECT_DIR$/test/constructor_test.cpp" />
-        <option value="$PROJECT_DIR$/src/ll.cpp" />
         <option value="$PROJECT_DIR$/src/ll.h" />
         <option value="$PROJECT_DIR$/src/ref_ll.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/ref_ll.cpp" />
+        <option value="$PROJECT_DIR$/src/ll.cpp" />
+        <option value="$PROJECT_DIR$/test/constructor_test.cpp" />
         <option value="$PROJECT_DIR$/test/iterator_test.cpp" />
       </list>
     </option>
@@ -167,6 +87,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -219,6 +140,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -237,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Catch.Idk">
+  <component name="RunManager" selected="Application.constructor_test">
     <configuration name="Accessors_test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
@@ -253,16 +175,16 @@
     <configuration name="Modifiers_test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="modifers_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="modifers_test" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="Pop back" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="modifers_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="modifers_test" TEST_METHOD="Pop back" TEST_MODE="SUITE_TEST">
+    <configuration name="Testing Base Constructor" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="constructor_test" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="constructor_test" TEST_METHOD="Testing Base Constructor" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="Testing != operator" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test" TEST_METHOD="Testing != operator" TEST_MODE="SUITE_TEST">
+    <configuration name="Testing Constructor Using Vector" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="constructor_test" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="constructor_test" TEST_METHOD="Testing Constructor Using Vector" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="Testing &lt;&lt; operator" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test" TEST_METHOD="Testing &lt;&lt; operator" TEST_MODE="SUITE_TEST">
+    <configuration name="Testing Copy Constructor is Deep Copy #2" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="constructor_test" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="constructor_test" TEST_METHOD="Testing Copy Constructor is Deep Copy #2" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="Testing front Base Case" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="accessors_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="accessors_test" TEST_MODE="SUITE_TEST">
+    <configuration name="Testing Copy Constructor is Deep Copy" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake-linked-list" TARGET_NAME="constructor_test" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="constructor_test" TEST_METHOD="Testing Copy Constructor is Deep Copy" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake-linked-list" RUN_TARGET_NAME="modifers_test" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -290,19 +212,19 @@
       <item index="6" class="java.lang.String" itemvalue="Catch.Constructor_test" />
       <item index="7" class="java.lang.String" itemvalue="Catch.Accessors_test" />
       <item index="8" class="java.lang.String" itemvalue="Catch.Iterator_test" />
-      <item index="9" class="java.lang.String" itemvalue="Catch.Testing != operator" />
-      <item index="10" class="java.lang.String" itemvalue="Catch.Pop back" />
-      <item index="11" class="java.lang.String" itemvalue="Catch.Testing &lt;&lt; operator" />
-      <item index="12" class="java.lang.String" itemvalue="Catch.Testing front Base Case" />
-      <item index="13" class="java.lang.String" itemvalue="Catch.Idk" />
+      <item index="9" class="java.lang.String" itemvalue="Catch.Idk" />
+      <item index="10" class="java.lang.String" itemvalue="Catch.Testing Constructor Using Vector" />
+      <item index="11" class="java.lang.String" itemvalue="Catch.Testing Base Constructor" />
+      <item index="12" class="java.lang.String" itemvalue="Catch.Testing Copy Constructor is Deep Copy #2" />
+      <item index="13" class="java.lang.String" itemvalue="Catch.Testing Copy Constructor is Deep Copy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Catch.Idk" />
-        <item index="1" class="java.lang.String" itemvalue="Catch.Testing front Base Case" />
-        <item index="2" class="java.lang.String" itemvalue="Catch.Testing &lt;&lt; operator" />
-        <item index="3" class="java.lang.String" itemvalue="Catch.Pop back" />
-        <item index="4" class="java.lang.String" itemvalue="Catch.Testing != operator" />
+        <item index="0" class="java.lang.String" itemvalue="Catch.Testing Constructor Using Vector" />
+        <item index="1" class="java.lang.String" itemvalue="Catch.Testing Copy Constructor is Deep Copy" />
+        <item index="2" class="java.lang.String" itemvalue="Catch.Testing Copy Constructor is Deep Copy #2" />
+        <item index="3" class="java.lang.String" itemvalue="Catch.Testing Base Constructor" />
+        <item index="4" class="java.lang.String" itemvalue="Catch.Idk" />
       </list>
     </recent_temporary>
   </component>
@@ -442,56 +364,63 @@
       <option name="project" value="LOCAL" />
       <updated>1523331459176</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added a test using begin() and end()">
+      <created>1523331518672</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1523331518672</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Idk - 2018.04.09 at 22h 36m 33s.xml">
-      <configuration name="Idk" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Base_Constructor - 2018.04.09 at 23h 20m 47s.xml">
+      <configuration name="Testing Base Constructor" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Pop_back - 2018.04.06 at 18h 37m 15s.xml">
-      <configuration name="Pop back" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Constructor_Using_Vector - 2018.04.09 at 23h 20m 59s.xml">
+      <configuration name="Testing Constructor Using Vector" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Testing_!= - 2018.04.03 at 21h 21m 58s.xml">
-      <configuration name="Testing !=" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Constructor_Using_Vector - 2018.04.09 at 23h 21m 24s.xml">
+      <configuration name="Testing Constructor Using Vector" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Testing_!= - 2018.04.03 at 21h 49m 17s.xml">
-      <configuration name="Testing !=" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Constructor_Using_Vector - 2018.04.09 at 23h 22m 02s.xml">
+      <configuration name="Testing Constructor Using Vector" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Testing_!=_operator - 2018.04.03 at 16h 52m 18s.xml">
-      <configuration name="Testing != operator" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Constructor_Using_Vector - 2018.04.09 at 23h 22m 18s.xml">
+      <configuration name="Testing Constructor Using Vector" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Testing_!=_operator - 2018.04.03 at 21h 20m 21s.xml">
-      <configuration name="Testing != operator" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Constructor_Using_Vector - 2018.04.09 at 23h 22m 41s.xml">
+      <configuration name="Testing Constructor Using Vector" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Testing_!=_operator - 2018.04.03 at 21h 49m 20s.xml">
-      <configuration name="Testing != operator" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Constructor_Using_Vector - 2018.04.09 at 23h 23m 00s.xml">
+      <configuration name="Testing Constructor Using Vector" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Testing_!=_operator_base_case - 2018.04.03 at 16h 51m 45s.xml">
-      <configuration name="Testing != operator base case" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Constructor_Using_Vector - 2018.04.09 at 23h 23m 23s.xml">
+      <configuration name="Testing Constructor Using Vector" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Testing_==_failure - 2018.04.03 at 16h 50m 33s.xml">
-      <configuration name="Testing == failure" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Copy_Constructor_is_Deep_Copy - 2018.04.09 at 23h 20m 53s.xml">
+      <configuration name="Testing Copy Constructor is Deep Copy" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Testing_front_Base_Case - 2018.04.09 at 22h 17m 45s.xml">
-      <configuration name="Testing front Base Case" configurationId="CMakeCatchTestRunConfigurationType" />
+    <history-entry file="Testing_Copy_Constructor_is_Deep_Copy_#2 - 2018.04.09 at 23h 20m 50s.xml">
+      <configuration name="Testing Copy Constructor is Deep Copy #2" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53283000" />
+    <option name="totallyTimeSpent" value="55571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="15" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26524824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27801418" sideWeight="0.503125" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27801418" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27801418" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -541,7 +470,8 @@
     <MESSAGE value="Removed Tail Node" />
     <MESSAGE value="Re-added the tail_ node and changed some methods" />
     <MESSAGE value="Updated classes and created iterator_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated classes and created iterator_test" />
+    <MESSAGE value="Added a test using begin() and end()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a test using begin() and end()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -550,16 +480,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/constructor_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-          <folding>
-            <element signature="e#69#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/modifiers_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3780">
@@ -833,47 +753,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ll.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5036">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/snakebody.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/accessors_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ll.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/modifiers_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
-          <caret line="230" column="16" lean-forward="false" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
-          <folding>
-            <element signature="e#69#97#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -932,16 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/constructor_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#69#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -950,10 +824,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mySketch.xcodeproj/xcuserdata/Joshua.xcuserdatad/xcschemes/xcschememanagement.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ll.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ll.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/constructor_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#69#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/accessors_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/modifiers_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3435">
+          <caret line="230" column="16" lean-forward="false" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/iterator_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="395">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#68#96#0" expanded="true" />
           </folding>
