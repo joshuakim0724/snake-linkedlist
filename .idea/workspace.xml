@@ -14,21 +14,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0f935e-78a3-468f-902d-95e98d6fa89b" name="Default" comment="Added Begin() and End() test(?)">
+    <list default="true" id="7e0f935e-78a3-468f-902d-95e98d6fa89b" name="Default" comment="Added a test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accessors_test.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accessors_test.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/constructor_test.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/constructor_test.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modifers_test.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/modifers_test.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/accessors_test" afterPath="$PROJECT_DIR$/cmake-build-debug/accessors_test" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/snake-linked-list.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/snake-linked-list.cbp" />
-      <change beforePath="$PROJECT_DIR$/src/ref_ll.cpp" afterPath="$PROJECT_DIR$/src/ref_ll.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/ref_ll.h" afterPath="$PROJECT_DIR$/src/ref_ll.h" />
+      <change beforePath="$PROJECT_DIR$/test/iterator_test.cpp" afterPath="$PROJECT_DIR$/test/iterator_test.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,6 +37,16 @@
               <folding>
                 <element signature="e#68#96#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -437,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523329127990</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated classes and created iterator_test">
+      <created>1523331459176</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1523331459176</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -473,7 +478,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53234000" />
+    <option name="totallyTimeSpent" value="53283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -535,7 +540,8 @@
     <MESSAGE value="Some updates to constructors and deleting stuff" />
     <MESSAGE value="Removed Tail Node" />
     <MESSAGE value="Re-added the tail_ node and changed some methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Re-added the tail_ node and changed some methods" />
+    <MESSAGE value="Updated classes and created iterator_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated classes and created iterator_test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -544,14 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/accessors_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/constructor_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -941,6 +939,14 @@
           <folding>
             <element signature="e#69#97#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
