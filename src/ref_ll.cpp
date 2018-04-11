@@ -44,10 +44,13 @@ LinkedList<ElementType>::LinkedList(const LinkedList<ElementType> &source) {
 // Move constructor
 template<typename ElementType>
 LinkedList<ElementType>::LinkedList(LinkedList<ElementType> &&source) noexcept {
+
+    // Copying from the source LinkedList
     head_ = source.head_;
     tail_ = source.tail_;
-    size_ = 0;
+    size_ = source.size_;
 
+    // Setting the source LinkedList to nullptr or 0
     source.head_ = nullptr;
     source.tail_ = nullptr;
     source.size_ = 0;
@@ -66,20 +69,24 @@ LinkedList<ElementType> &LinkedList<ElementType>::operator=(const LinkedList<Ele
         return *this;
     }
 
+    // Clear the whole current LinkedList
     clear();
 
     if (source.head_) {
-        size_ = 1;
+        size_ = 0;
 
         ListNode *current_node = source.head_;
         head_ = new ListNode(current_node->data_);
+        tail_ = new ListNode(source.tail_->data_);
+
         current_node = current_node->next_;
 
         while (current_node) {
             this->push_back(current_node->data_);
-            tail_ = current_node;
             current_node = current_node->next_;
-            size_++;
+            if (current_node) {
+                size_++;
+            }
         }
     }
     return *this;

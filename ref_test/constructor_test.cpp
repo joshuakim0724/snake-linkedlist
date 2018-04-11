@@ -48,6 +48,10 @@ TEST_CASE("Testing Copy Constructor is Deep Copy") {
 
     REQUIRE(linkedList.size() == 4);
     REQUIRE(linkedList2.size() == 3);
+
+    linkedList = linkedList2;
+
+    REQUIRE(linkedList.size() == 3);
 }
 
 TEST_CASE("Testing Copy Constructor is Deep Copy #2") {
@@ -64,7 +68,7 @@ TEST_CASE("Testing Copy Constructor is Deep Copy #2") {
 
 TEST_CASE("Move Constructor Base Case") {
     LinkedList<int> list;
-    LinkedList<int>  test_data(*(new LinkedList<int>()));
+    LinkedList<int> test_data(*(new LinkedList<int>()));
 
     REQUIRE(list == test_data);
 }
