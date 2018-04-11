@@ -3,15 +3,16 @@
 //
 
 #define CATCH_CONFIG_MAIN
-#include "../test/catch.hpp"
-#include "../src/ll.h"
+#include "../ref_test/catch.hpp"
+#include "../src/ref_ll.h"
+#include "../src/snakebody.h"
 using namespace snakelinkedlist;
 using std::string;
 
 std::ostringstream stream;
 
 TEST_CASE("Testing Base Constructor") {
-    LinkedList list = LinkedList();
+    LinkedList<string> list = LinkedList<string>();
 
     REQUIRE(list.empty());
 }
@@ -25,7 +26,8 @@ TEST_CASE("Testing Constructor Using Vector") {
     snake_vector.push_back(snakebody2);
     snake_vector.push_back(snakebody3);
 
-    LinkedList list(snake_vector);
+
+    LinkedList<SnakeBodySegment> list = LinkedList<SnakeBodySegment>(snake_vector);
 
     REQUIRE(list.size() == 3);
 
@@ -36,27 +38,21 @@ TEST_CASE("Testing Constructor Using Vector") {
 }
 
 TEST_CASE("Testing Copy Constructor is Deep Copy") {
-    LinkedList linkedList = LinkedList();
+    std::vector<int> vector1 = {1,2,3};
 
-    SnakeBodySegment snakebody1(2);
-    SnakeBodySegment snakebody2(4);
-    SnakeBodySegment snakebody3(3);
+    LinkedList<int> linkedList = LinkedList<int>(vector1);
 
-    linkedList.push_back(snakebody1);
-    linkedList.push_back(snakebody2);
-    linkedList.push_back(snakebody3);
+    LinkedList<int> linkedList2(linkedList);
 
-    LinkedList linkedList2 = LinkedList(linkedList);
+    linkedList.push_back(3);
 
-    linkedList.pop_back();
-
-    REQUIRE(linkedList.size() == 2);
+    REQUIRE(linkedList.size() == 4);
     REQUIRE(linkedList2.size() == 3);
 }
 
 TEST_CASE("Testing Copy Constructor is Deep Copy #2") {
-    LinkedList linkedList = LinkedList();
-    LinkedList linkedList2 = LinkedList(linkedList);
+    LinkedList<SnakeBodySegment> linkedList = LinkedList<SnakeBodySegment>();
+    LinkedList<SnakeBodySegment> linkedList2 = LinkedList<SnakeBodySegment>(linkedList);
 
     SnakeBodySegment snakebody1(2);
 
@@ -67,8 +63,8 @@ TEST_CASE("Testing Copy Constructor is Deep Copy #2") {
 }
 
 TEST_CASE("Move Constructor Base Case") {
-    LinkedList list;
-    LinkedList test_data(*(new LinkedList()));
+    LinkedList<int> list;
+    LinkedList<int>  test_data(*(new LinkedList<int>()));
 
     REQUIRE(list == test_data);
 }
@@ -84,10 +80,11 @@ TEST_CASE("Move Constructor") {
     data.push_back(snakebody2);
     data.push_back(snakebody3);
 
-    LinkedList dataList(data);
+    LinkedList<SnakeBodySegment> dataList(data);
 
-    LinkedList test_data(std::move(dataList));
+    LinkedList<SnakeBodySegment> test_data(std::move(dataList));
 
+    stream.str(string());
     stream << test_data;
 
     REQUIRE(dataList.empty());

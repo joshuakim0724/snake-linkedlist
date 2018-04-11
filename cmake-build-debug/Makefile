@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ref_accessors_test
+
+# Build rule for target.
+ref_accessors_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ref_accessors_test
+.PHONY : ref_accessors_test
+
+# fast build rule for target.
+ref_accessors_test/fast:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/build
+.PHONY : ref_accessors_test/fast
+
+#=============================================================================
+# Target rules for targets named ref_modifers_test
+
+# Build rule for target.
+ref_modifers_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ref_modifers_test
+.PHONY : ref_modifers_test
+
+# fast build rule for target.
+ref_modifers_test/fast:
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/build
+.PHONY : ref_modifers_test/fast
+
+#=============================================================================
+# Target rules for targets named ref_iterator_test
+
+# Build rule for target.
+ref_iterator_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ref_iterator_test
+.PHONY : ref_iterator_test
+
+# fast build rule for target.
+ref_iterator_test/fast:
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/build
+.PHONY : ref_iterator_test/fast
+
+#=============================================================================
 # Target rules for targets named accessors_test
 
 # Build rule for target.
@@ -137,6 +176,19 @@ modifers_test/fast:
 .PHONY : modifers_test/fast
 
 #=============================================================================
+# Target rules for targets named ref_constructor_test
+
+# Build rule for target.
+ref_constructor_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ref_constructor_test
+.PHONY : ref_constructor_test
+
+# fast build rule for target.
+ref_constructor_test/fast:
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/build
+.PHONY : ref_constructor_test/fast
+
+#=============================================================================
 # Target rules for targets named constructor_test
 
 # Build rule for target.
@@ -161,6 +213,114 @@ iterator_test: cmake_check_build_system
 iterator_test/fast:
 	$(MAKE) -f CMakeFiles/iterator_test.dir/build.make CMakeFiles/iterator_test.dir/build
 .PHONY : iterator_test/fast
+
+ref_test/accessors_test.o: ref_test/accessors_test.cpp.o
+
+.PHONY : ref_test/accessors_test.o
+
+# target to build an object file
+ref_test/accessors_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/ref_test/accessors_test.cpp.o
+.PHONY : ref_test/accessors_test.cpp.o
+
+ref_test/accessors_test.i: ref_test/accessors_test.cpp.i
+
+.PHONY : ref_test/accessors_test.i
+
+# target to preprocess a source file
+ref_test/accessors_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/ref_test/accessors_test.cpp.i
+.PHONY : ref_test/accessors_test.cpp.i
+
+ref_test/accessors_test.s: ref_test/accessors_test.cpp.s
+
+.PHONY : ref_test/accessors_test.s
+
+# target to generate assembly for a file
+ref_test/accessors_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/ref_test/accessors_test.cpp.s
+.PHONY : ref_test/accessors_test.cpp.s
+
+ref_test/constructor_test.o: ref_test/constructor_test.cpp.o
+
+.PHONY : ref_test/constructor_test.o
+
+# target to build an object file
+ref_test/constructor_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/ref_test/constructor_test.cpp.o
+.PHONY : ref_test/constructor_test.cpp.o
+
+ref_test/constructor_test.i: ref_test/constructor_test.cpp.i
+
+.PHONY : ref_test/constructor_test.i
+
+# target to preprocess a source file
+ref_test/constructor_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/ref_test/constructor_test.cpp.i
+.PHONY : ref_test/constructor_test.cpp.i
+
+ref_test/constructor_test.s: ref_test/constructor_test.cpp.s
+
+.PHONY : ref_test/constructor_test.s
+
+# target to generate assembly for a file
+ref_test/constructor_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/ref_test/constructor_test.cpp.s
+.PHONY : ref_test/constructor_test.cpp.s
+
+ref_test/iterator_test.o: ref_test/iterator_test.cpp.o
+
+.PHONY : ref_test/iterator_test.o
+
+# target to build an object file
+ref_test/iterator_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/ref_test/iterator_test.cpp.o
+.PHONY : ref_test/iterator_test.cpp.o
+
+ref_test/iterator_test.i: ref_test/iterator_test.cpp.i
+
+.PHONY : ref_test/iterator_test.i
+
+# target to preprocess a source file
+ref_test/iterator_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/ref_test/iterator_test.cpp.i
+.PHONY : ref_test/iterator_test.cpp.i
+
+ref_test/iterator_test.s: ref_test/iterator_test.cpp.s
+
+.PHONY : ref_test/iterator_test.s
+
+# target to generate assembly for a file
+ref_test/iterator_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/ref_test/iterator_test.cpp.s
+.PHONY : ref_test/iterator_test.cpp.s
+
+ref_test/modifiers_test.o: ref_test/modifiers_test.cpp.o
+
+.PHONY : ref_test/modifiers_test.o
+
+# target to build an object file
+ref_test/modifiers_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/ref_test/modifiers_test.cpp.o
+.PHONY : ref_test/modifiers_test.cpp.o
+
+ref_test/modifiers_test.i: ref_test/modifiers_test.cpp.i
+
+.PHONY : ref_test/modifiers_test.i
+
+# target to preprocess a source file
+ref_test/modifiers_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/ref_test/modifiers_test.cpp.i
+.PHONY : ref_test/modifiers_test.cpp.i
+
+ref_test/modifiers_test.s: ref_test/modifiers_test.cpp.s
+
+.PHONY : ref_test/modifiers_test.s
+
+# target to generate assembly for a file
+ref_test/modifiers_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/ref_test/modifiers_test.cpp.s
+.PHONY : ref_test/modifiers_test.cpp.s
 
 src/ll.o: src/ll.cpp.o
 
@@ -201,8 +361,12 @@ src/snakebody.o: src/snakebody.cpp.o
 
 # target to build an object file
 src/snakebody.cpp.o:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/src/snakebody.cpp.o
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/src/snakebody.cpp.o
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/src/snakebody.cpp.o
 	$(MAKE) -f CMakeFiles/accessors_test.dir/build.make CMakeFiles/accessors_test.dir/src/snakebody.cpp.o
 	$(MAKE) -f CMakeFiles/modifers_test.dir/build.make CMakeFiles/modifers_test.dir/src/snakebody.cpp.o
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/src/snakebody.cpp.o
 	$(MAKE) -f CMakeFiles/constructor_test.dir/build.make CMakeFiles/constructor_test.dir/src/snakebody.cpp.o
 	$(MAKE) -f CMakeFiles/iterator_test.dir/build.make CMakeFiles/iterator_test.dir/src/snakebody.cpp.o
 .PHONY : src/snakebody.cpp.o
@@ -213,8 +377,12 @@ src/snakebody.i: src/snakebody.cpp.i
 
 # target to preprocess a source file
 src/snakebody.cpp.i:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/src/snakebody.cpp.i
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/src/snakebody.cpp.i
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/src/snakebody.cpp.i
 	$(MAKE) -f CMakeFiles/accessors_test.dir/build.make CMakeFiles/accessors_test.dir/src/snakebody.cpp.i
 	$(MAKE) -f CMakeFiles/modifers_test.dir/build.make CMakeFiles/modifers_test.dir/src/snakebody.cpp.i
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/src/snakebody.cpp.i
 	$(MAKE) -f CMakeFiles/constructor_test.dir/build.make CMakeFiles/constructor_test.dir/src/snakebody.cpp.i
 	$(MAKE) -f CMakeFiles/iterator_test.dir/build.make CMakeFiles/iterator_test.dir/src/snakebody.cpp.i
 .PHONY : src/snakebody.cpp.i
@@ -225,8 +393,12 @@ src/snakebody.s: src/snakebody.cpp.s
 
 # target to generate assembly for a file
 src/snakebody.cpp.s:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/src/snakebody.cpp.s
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/src/snakebody.cpp.s
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/src/snakebody.cpp.s
 	$(MAKE) -f CMakeFiles/accessors_test.dir/build.make CMakeFiles/accessors_test.dir/src/snakebody.cpp.s
 	$(MAKE) -f CMakeFiles/modifers_test.dir/build.make CMakeFiles/modifers_test.dir/src/snakebody.cpp.s
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/src/snakebody.cpp.s
 	$(MAKE) -f CMakeFiles/constructor_test.dir/build.make CMakeFiles/constructor_test.dir/src/snakebody.cpp.s
 	$(MAKE) -f CMakeFiles/iterator_test.dir/build.make CMakeFiles/iterator_test.dir/src/snakebody.cpp.s
 .PHONY : src/snakebody.cpp.s
@@ -346,11 +518,27 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... ref_accessors_test"
+	@echo "... ref_modifers_test"
+	@echo "... ref_iterator_test"
 	@echo "... accessors_test"
 	@echo "... modifers_test"
-	@echo "... edit_cache"
+	@echo "... ref_constructor_test"
 	@echo "... constructor_test"
 	@echo "... iterator_test"
+	@echo "... ref_test/accessors_test.o"
+	@echo "... ref_test/accessors_test.i"
+	@echo "... ref_test/accessors_test.s"
+	@echo "... ref_test/constructor_test.o"
+	@echo "... ref_test/constructor_test.i"
+	@echo "... ref_test/constructor_test.s"
+	@echo "... ref_test/iterator_test.o"
+	@echo "... ref_test/iterator_test.i"
+	@echo "... ref_test/iterator_test.s"
+	@echo "... ref_test/modifiers_test.o"
+	@echo "... ref_test/modifiers_test.i"
+	@echo "... ref_test/modifiers_test.s"
 	@echo "... src/ll.o"
 	@echo "... src/ll.i"
 	@echo "... src/ll.s"

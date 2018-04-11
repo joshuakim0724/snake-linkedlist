@@ -27,6 +27,142 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref_accessors_test">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/ref_accessors_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref_accessors_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref_accessors_test/fast">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/ref_accessors_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref_accessors_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref_modifers_test">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/ref_modifers_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref_modifers_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref_modifers_test/fast">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/ref_modifers_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref_modifers_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref_iterator_test">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/ref_iterator_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref_iterator_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref_iterator_test/fast">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/ref_iterator_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref_iterator_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="accessors_test">
 				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/accessors_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
@@ -111,11 +247,43 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="ref_constructor_test">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/ref_constructor_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref_constructor_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ref_constructor_test/fast">
+				<Option output="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/ref_constructor_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 ref_constructor_test/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -206,6 +374,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/ref_test/accessors_test.cpp">
+			<Option target="ref_accessors_test"/>
+		</Unit>
+		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/ref_test/constructor_test.cpp">
+			<Option target="ref_constructor_test"/>
+		</Unit>
+		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/ref_test/iterator_test.cpp">
+			<Option target="ref_iterator_test"/>
+		</Unit>
+		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/ref_test/modifiers_test.cpp">
+			<Option target="ref_modifers_test"/>
+		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.cpp">
 			<Option target="accessors_test"/>
 			<Option target="modifers_test"/>
@@ -217,15 +397,24 @@
 			<Option target="constructor_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h">
+			<Option target="ref_accessors_test"/>
+			<Option target="ref_modifers_test"/>
+			<Option target="ref_iterator_test"/>
+			<Option target="ref_constructor_test"/>
 			<Option target="iterator_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.cpp">
+			<Option target="ref_accessors_test"/>
+			<Option target="ref_modifers_test"/>
+			<Option target="ref_iterator_test"/>
 			<Option target="accessors_test"/>
 			<Option target="modifers_test"/>
+			<Option target="ref_constructor_test"/>
 			<Option target="constructor_test"/>
 			<Option target="iterator_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.h">
+			<Option target="ref_iterator_test"/>
 			<Option target="iterator_test"/>
 		</Unit>
 		<Unit filename="/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/accessors_test.cpp">

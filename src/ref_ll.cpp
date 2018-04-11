@@ -22,8 +22,6 @@ template<typename ElementType>
 LinkedList<ElementType>::LinkedList(const LinkedList<ElementType> &source) {
     if (source.head_) {
 
-        size_ = 1;
-
         // Copying Head
         ListNode *current_node = source.head_;
         head_ = new ListNode(current_node->data_);
@@ -34,11 +32,12 @@ LinkedList<ElementType>::LinkedList(const LinkedList<ElementType> &source) {
             this->push_back(current_node->data_);
             tail_ = current_node;
             current_node = current_node->next_;
-            size_++;
         }
+        size_ = source.size_;
     } else {
         head_ = nullptr;
         tail_ = nullptr;
+        size_ = 0;
     }
 }
 

@@ -60,6 +60,117 @@ CMAKE_SOURCE_DIR = /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724
 CMAKE_BINARY_DIR = /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/ref_accessors_test.dir
+
+# All Build rule for target.
+CMakeFiles/ref_accessors_test.dir/all:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/depend
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target ref_accessors_test"
+.PHONY : CMakeFiles/ref_accessors_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/ref_accessors_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ref_accessors_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ref_accessors_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ref_accessors_test.dir/rule
+
+# Convenience name for target.
+ref_accessors_test: CMakeFiles/ref_accessors_test.dir/rule
+
+.PHONY : ref_accessors_test
+
+# clean rule for target.
+CMakeFiles/ref_accessors_test.dir/clean:
+	$(MAKE) -f CMakeFiles/ref_accessors_test.dir/build.make CMakeFiles/ref_accessors_test.dir/clean
+.PHONY : CMakeFiles/ref_accessors_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ref_accessors_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ref_modifers_test.dir
+
+# All Build rule for target.
+CMakeFiles/ref_modifers_test.dir/all:
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/depend
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target ref_modifers_test"
+.PHONY : CMakeFiles/ref_modifers_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/ref_modifers_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ref_modifers_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ref_modifers_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ref_modifers_test.dir/rule
+
+# Convenience name for target.
+ref_modifers_test: CMakeFiles/ref_modifers_test.dir/rule
+
+.PHONY : ref_modifers_test
+
+# clean rule for target.
+CMakeFiles/ref_modifers_test.dir/clean:
+	$(MAKE) -f CMakeFiles/ref_modifers_test.dir/build.make CMakeFiles/ref_modifers_test.dir/clean
+.PHONY : CMakeFiles/ref_modifers_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ref_modifers_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ref_iterator_test.dir
+
+# All Build rule for target.
+CMakeFiles/ref_iterator_test.dir/all:
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/depend
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target ref_iterator_test"
+.PHONY : CMakeFiles/ref_iterator_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/ref_iterator_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ref_iterator_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ref_iterator_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ref_iterator_test.dir/rule
+
+# Convenience name for target.
+ref_iterator_test: CMakeFiles/ref_iterator_test.dir/rule
+
+.PHONY : ref_iterator_test
+
+# clean rule for target.
+CMakeFiles/ref_iterator_test.dir/clean:
+	$(MAKE) -f CMakeFiles/ref_iterator_test.dir/build.make CMakeFiles/ref_iterator_test.dir/clean
+.PHONY : CMakeFiles/ref_iterator_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ref_iterator_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/accessors_test.dir
 
 # All Build rule for target.
@@ -130,6 +241,43 @@ CMakeFiles/modifers_test.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/modifers_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ref_constructor_test.dir
+
+# All Build rule for target.
+CMakeFiles/ref_constructor_test.dir/all:
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/depend
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target ref_constructor_test"
+.PHONY : CMakeFiles/ref_constructor_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/ref_constructor_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ref_constructor_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ref_constructor_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ref_constructor_test.dir/rule
+
+# Convenience name for target.
+ref_constructor_test: CMakeFiles/ref_constructor_test.dir/rule
+
+.PHONY : ref_constructor_test
+
+# clean rule for target.
+CMakeFiles/ref_constructor_test.dir/clean:
+	$(MAKE) -f CMakeFiles/ref_constructor_test.dir/build.make CMakeFiles/ref_constructor_test.dir/clean
+.PHONY : CMakeFiles/ref_constructor_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ref_constructor_test.dir/clean
 
 .PHONY : clean
 

@@ -49,8 +49,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ref_accessors_test.dir/DependInfo.cmake"
+  "CMakeFiles/ref_modifers_test.dir/DependInfo.cmake"
+  "CMakeFiles/ref_iterator_test.dir/DependInfo.cmake"
   "CMakeFiles/accessors_test.dir/DependInfo.cmake"
   "CMakeFiles/modifers_test.dir/DependInfo.cmake"
+  "CMakeFiles/ref_constructor_test.dir/DependInfo.cmake"
   "CMakeFiles/constructor_test.dir/DependInfo.cmake"
   "CMakeFiles/iterator_test.dir/DependInfo.cmake"
   )

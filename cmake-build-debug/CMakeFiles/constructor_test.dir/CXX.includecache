@@ -9,6 +9,8 @@
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.cpp
 ll.h
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.h
+ref_ll.h
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h
 
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.h
 iostream
@@ -429,8 +431,6 @@ algorithm
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/constructor_test.cpp
 ../test/catch.hpp
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/test/catch.hpp
-../src/ref_ll.h
-/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h
-../src/snakebody.h
-/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.h
+../src/ll.h
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.h
 

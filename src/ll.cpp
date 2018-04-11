@@ -1,4 +1,5 @@
 #include "ll.h"
+#include "ref_ll.h"
 
 namespace snakelinkedlist {
 
@@ -126,7 +127,7 @@ namespace snakelinkedlist {
         auto *tail_node = new ListNode(value);
 
         while (current_node->next_) {
-            current_node = current_node->next_;
+            current_node = current_node ->next_;
         }
         current_node->next_ = tail_node;
     }
@@ -309,7 +310,7 @@ namespace snakelinkedlist {
      * This should print the SnakeBodySegment elements stored in the list
      * using the « operator from the SnakeBodySegment class to print the list.
      */
-    std::ostream &snakelinkedlist::operator<<(std::ostream &os, const LinkedList &list) {
+    std::ostream &operator<<(std::ostream &os, const LinkedList &list) {
         ListNode *current_node = list.head_;
 
         while (current_node) {
