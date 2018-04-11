@@ -9,6 +9,8 @@
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.cpp
 ll.h
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.h
+ref_ll.h
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h
 
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ll.h
 iostream
@@ -17,6 +19,20 @@ vector
 -
 snakebody.h
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.h
+
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.cpp
+utility
+-
+ref_ll.h
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h
+
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.h
+iostream
+-
+vector
+-
+ref_ll.cpp
+/Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/ref_ll.cpp
 
 /Users/Joshua/CLionProjects/snake-linked-list-joshuakim0724/src/snakebody.cpp
 snakebody.h

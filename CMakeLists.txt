@@ -20,4 +20,3 @@ add_executable(ref_constructor_test "ref_test/constructor_test.cpp" src/ref_ll.h
 add_executable(ref_modifers_test "ref_test/modifiers_test.cpp" src/ref_ll.h src/snakebody.cpp)
 
 add_executable(ref_accessors_test "ref_test/accessors_test.cpp" src/ref_ll.h src/snakebody.cpp)
-

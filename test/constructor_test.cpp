@@ -25,7 +25,7 @@ TEST_CASE("Testing Constructor Using Vector") {
     snake_vector.push_back(snakebody2);
     snake_vector.push_back(snakebody3);
 
-    LinkedList list(snake_vector);
+    LinkedList list = LinkedList(snake_vector);
 
     REQUIRE(list.size() == 3);
 
@@ -88,6 +88,7 @@ TEST_CASE("Move Constructor") {
 
     LinkedList test_data(std::move(dataList));
 
+    stream.str(std::string());
     stream << test_data;
 
     REQUIRE(dataList.empty());
